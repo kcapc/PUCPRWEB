@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "AS2-tecnologias-desenvolvimento-web-ADS-PUCPR-main"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "AS2-tecnologias-desenvolvimento-web-ADS-PUCPR-main-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
